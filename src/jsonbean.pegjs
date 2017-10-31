@@ -148,6 +148,9 @@ DefaultValue
             }
         }
     }
+    / [^;]*{
+        	return "";
+    }
 
 
 Comment

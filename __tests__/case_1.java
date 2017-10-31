@@ -30,8 +30,8 @@ public class User {
 
 	/*
 	 * user privileges
-	 */
-	private List<String> privileges;
+     */
+    private List<String> privileges = new ArrayList<>();
 
 	public String getId() {
 		return id;
