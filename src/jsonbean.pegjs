@@ -28,7 +28,7 @@ Statement
         }
         return {
             name: name.join(''),
-            type: dt.name,
+            typeName: dt.name,
             isArray: dt.isArray || (arr?true:false),
             defaultValue: dv == null?"":dv,
             description: ct.join('') || cl

@@ -4,28 +4,28 @@
   "attributes": [
     {
       "name": "id",
-      "type": "String",
+      "typeName": "String",
       "isArray": false,
       "defaultValue": "",
       "description": "user id"
     },
     {
       "name": "name",
-      "type": "String",
+      "typeName": "String",
       "isArray": false,
       "defaultValue": "",
       "description": "user name"
     },
     {
       "name": "age",
-      "type": "Integer",
+      "typeName": "Integer",
       "isArray": false,
       "defaultValue": "10",
       "description": "user age"
     },
     {
       "name": "privileges",
-      "type": "String",
+      "typeName": "String",
       "isArray": true,
       "defaultValue": "",
       "description": "user privileges"
